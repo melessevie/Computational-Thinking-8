@@ -21,22 +21,26 @@ answer = input ("are you A) a confident person, or B) a shy person?")
 if answer == "A":
       Chocolate_points += 1
 elif answer == "B" :  
+       Vanilla_points += 1
 
 
-      answer = input ("are you A) a Vanilla perfume person, or B) a strong sexy perfume person?")
+answer = input ("are you A) a Vanilla perfume person, or B) a strong sexy perfume person?")
 if answer == "A":
       Chocolate_points += 1
 elif answer == "B" :
+       Vanilla_points += 1
 
 
-      answer = input ("are you A) a Introverted person, or B) a Extroverted person?")
+answer = input ("are you A) a Introverted person, or B) a Extroverted person?")
 if answer == "A":
       Chocolate_points += 1
 elif answer == "B" :
+       Vanilla_points += 1
+      
 
 
 # End: Determine results
-      if Vanilla_points > Chocolate_points:
+if Vanilla_points > Chocolate_points:
             print("you are a Vanilla person")
 elif Chocolate_points > Vanilla_points:
       print("you are a Chocolate person")
